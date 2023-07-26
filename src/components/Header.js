@@ -1,16 +1,25 @@
 import React from 'react';
 
+import sunsetImage from '../images/sunsetgreece.jpg';
+import ninasImage from '../images/nybildportfolio.jpg'
+
 const Header = () => {
   return (
 
     <section className="top-section">
 
       <div className="header-container">
-        <img className="header-image" src="images/sunsetgreece.jpg" alt="sunset in greece" />
+        <img
+          className="header-image"
+          src={sunsetImage}
+          alt="sunset in greece" />
       </div>
 
       <div className="profile-information">
-        <img className="profile-image" src="/images/nybildportfolio.jpg" alt="Nina" />
+        <img
+          className="profile-image"
+          src={ninasImage}
+          alt="Nina" />
 
         <div className="information-name">
           <h1>Nina Waldréus</h1>
