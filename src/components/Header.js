@@ -2,6 +2,9 @@ import React from 'react';
 
 import sunsetImage from '../images/sunsetgreece.jpg';
 import ninasImage from '../images/nybildportfolio.jpg'
+import linkedImage from '../images/linkedin.png';
+import githubImage from '../images/github.png';
+import stackImage from '../images/stackoverflow.png';
 
 const Header = () => {
   return (
@@ -42,44 +45,40 @@ const Header = () => {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/nina-waldr%C3%A9us-b46abb104/"
-                  className="fa fa-linkedin fa-lg"
-                  aria-label="View Nina Waldreus linkedin"
-                  aria-hidden="true"
                   rel="noreferrer">
-                  <span className="visually-hidden">LinkedIn</span>
+                  <img
+                    src={linkedImage}
+                    alt="LinkedIn"
+                    className="icon-image" />
                 </a>
               </li>
               <li>
                 <a
                   target="_blank"
                   href="https://github.com/NinaWald"
-                  className="fa fa-github fa-lg"
-                  aria-label="View Nina Waldreus github"
-                  aria-hidden="true"
                   rel="noreferrer">
-                  <span className="visually-hidden">GitHub</span>
+                  <img
+                    src={githubImage}
+                    alt="GitHub"
+                    className="icon-image" />
                 </a>
               </li>
               <li>
                 <a
                   target="_blank"
                   href="https://stackoverflowteams.com/c/technigo/users/411/?tab=profile"
-                  className="fa fa-stack-overflow fa-lg"
-                  aria-label="View Nina Waldreus stack overflow"
-                  aria-hidden="true"
                   rel="noreferrer">
-                  <span className="visually-hidden">Stack Overflow</span>
+                  <img
+                    src={stackImage}
+                    alt="Stack Overflow"
+                    className="icon-image" />
                 </a>
               </li>
             </ul>
-
           </div>
         </div>
       </div>
-
     </section>
-
-  )
-}
-
+  );
+};
 export default Header

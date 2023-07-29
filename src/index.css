@@ -1,13 +1,438 @@
+* { 
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(245, 245, 235);
+    width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+  padding: 0%;
+  margin: 24px 55px 24px 40px;
+}
+
+.header-container .header-image {
+  display: none;
+  
+}
+
+.information-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+
+
+img.profile-image {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  height: 164px;
+   min-width: 164px;
+   border-radius: 50%;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(107, 169, 172);
+  margin: 10px 0 10px o;
+}
+
+h2 {
+  color: rgb(107, 169, 172);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 32px;
+  margin: 10px 0 10px 0;
+}
+
+h4 {
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(77, 86, 187);
+  margin: 5px;
+  padding: 5px;
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h6 {
+  font-size: 24px;
+  color: rgb(130, 135, 135);
+  margin: 10px 0 10px 0;
+}
+.icon-container {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+
+ul li {
+  display: flex;
+  
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  align-self: flex-start;
+  padding-inline-start: 0;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  gap: 29px;
+  position: relative;
+  background-color: rgb(227, 238, 238);
+  text-align: center;
+  
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 24px 50px 24px;
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+
+.project-box {
+  margin-left: 10px;
+}
+
+.projects-title {
+  display: flex;
+  justify-content: center;
+}
+/*
+.todo-project, .chatbot, .guess-who, .weatherapp, .harrypotter-api {
+  display: flex;
+  flex-direction: column;
+ 
+  margin: 50px 20px 50px 20px;
+}
+
+.todoproject-box, .chatbot-box, .guess-box, .weather-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+ */
+.p {
+  max-width: 600px; /* or any other value you prefer */
+}
+
+.image-projects-item {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  border: 1px solid black;
+}
+
+
+.blackboxes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: fit-content;
+  flex-wrap: wrap;
+}
+
+.tech-box {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.button-project {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+button {
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(107, 169, 172);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 16px 5px 10px;
+  cursor: pointer;
+  
+ 
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  background-color: rgb(130, 186, 167);
+  color: black;
+}
+.my-words-title {
+  display: flex;
+ justify-content: center;
+}
+
+.my-words {
+  background-color: rgb(200, 225, 233);
+  padding-bottom: 24px;
+}
+
+.my-words-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+ 
+}
+
+.my-words-box {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.article-box {
+  width: 327px;
+  height: 340px;
+  object-fit: contain;
+}
+
+.skills-headtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-section {
+  display: grid;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 39px 33px;
+  margin: 24px 55px 24px 40px;
+  justify-content: center;
+  text-align: left;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 55px 150px 40px;
+  padding: 0%;
+  gap: 29px;
+}
+
+.contact  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+
+/* this part has the media queries for TABLET */
+@media (min-width: 667px) and (max-width: 1024px) {
+
+  .header {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .header-container .header-image {
+      display: flex;
+  }
+
+  .header-image {
+      width: 100%;
+      height: inherit;
+      object-fit: cover;
+  }
+
+  .top-section {
+      display: flex;
+      flex-direction: column;
+      
+      
+  }
+
+  .header-container {
+      display: flex;
+      flex-direction: column;
+      
+      width: 100%;
+      
+  }
+
+  .information-name {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  
+
+  .button-project {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      
+  }
+
+  .skills-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 39px 33px;
+  }
+
+}
+
+
+
+/* this part has the media queries for DESKTOP */
+
+@media (min-width: 1025px) {
+
+  
+  .header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+     
+  }
+
+  .information-name {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+
+  .header-container .header-image {
+      display: flex;
+  }
+
+  .top-section {
+      display: flex;
+      flex-direction: row-reverse;
+      flex-basis: 100%;
+      height: 700px;
+  }
+
+  .header-container {
+      display: flex;
+      width: 50%;
+  }
+
+  .header-image {
+      object-fit: cover;
+      height: 980px;
+      overflow: hidden;
+  }
+
+ 
+  .profile-information {
+      display: flex;
+      flex-basis: 50%;
+      
+      justify-self: flex-start;
+      align-self: center;
+  }
+
+  .chatbot, .guess-who, .weatherapp, .todo-project, .harrypotter-api {
+      flex-direction: row;
+  }
+
+  .project-item {
+      flex-direction: row;
+      margin-left: 230px;
+      margin-right: 230px;
+  }
+
+  .button-project {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      
+  }
+
+  .skills-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 39px 33px;
+  }
+  .my-words-container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  .my-words-box {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+  }
+
 }
