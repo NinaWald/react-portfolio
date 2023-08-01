@@ -7,7 +7,7 @@ const TechComponent = () => {
       <p>
         HTML5, CSS3, Styled-Components,
         Flexbox, Grid, Javascript/ES6, React,
-        Redux, Responsive Design, Github, Vscode+Git, REST API,
+        Redux, Responsive Design, Mobile-first, Github, Vscode+Git, REST API,
         Node, Express, MongoDB, Mongoose, CMS Contentful
       </p>
     </div>

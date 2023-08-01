@@ -149,22 +149,11 @@ ul {
   display: flex;
   justify-content: center;
 }
-/*
-.todo-project, .chatbot, .guess-who, .weatherapp, .harrypotter-api {
-  display: flex;
-  flex-direction: column;
- 
-  margin: 50px 20px 50px 20px;
-}
 
-.todoproject-box, .chatbot-box, .guess-box, .weather-box {
-  display: flex;
-  flex-direction: column;
-  margin-left: 5px;
-}
- */
-.p {
-  max-width: 600px; /* or any other value you prefer */
+.tech p {
+  max-width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .image-projects-item {
@@ -182,6 +171,16 @@ ul {
   max-width: fit-content;
   flex-wrap: wrap;
 }
+
+/* Styles for the globe image */
+.globe-icon {
+  /* Your styling for the globe image goes here */
+  /* For example: */
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
 
 .tech-box {
   color: white;
@@ -401,9 +400,6 @@ button:hover {
       align-self: center;
   }
 
-  .chatbot, .guess-who, .weatherapp, .todo-project, .harrypotter-api {
-      flex-direction: row;
-  }
 
   .project-item {
       flex-direction: row;
