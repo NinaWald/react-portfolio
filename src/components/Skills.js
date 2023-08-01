@@ -31,6 +31,7 @@ const Skills = () => {
           <p>Figma</p>
           <p>Postman</p>
           <p>Google Cloud</p>
+          <p>Eslint</p>
         </div>
 
         <div className="more">
@@ -39,6 +40,8 @@ const Skills = () => {
           </p>
           <p>Design interest</p>
           <p>Styled Components</p>
+          <p>Npm Packages</p>
+          <p>ChatGPT</p>
         </div>
 
         <div className="upcoming">
