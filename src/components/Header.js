@@ -1,10 +1,8 @@
 import React from 'react';
 
+import { FaLinkedin, FaGithub, FaStackOverflow } from 'react-icons/fa';
 import sunsetImage from '../images/sunsetgreece.jpg';
 import ninasImage from '../images/nybildportfolio.jpg'
-import linkedImage from '../images/linkedin.png';
-import githubImage from '../images/github.png';
-import stackImage from '../images/stackoverflow.png';
 
 const Header = () => {
   return (
@@ -38,40 +36,36 @@ const Header = () => {
                 to any project
                 and a standout in the technology field.
           </article>
-
           <div className="icon-container">
             <ul>
               <li>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/nina-waldr%C3%A9us-b46abb104/"
+                  aria-label="View Nina Waldreus linkedin"
+                  aria-hidden="true"
                   rel="noreferrer">
-                  <img
-                    src={linkedImage}
-                    alt="LinkedIn"
-                    className="icon-image" />
+                  <FaLinkedin size={40} />
                 </a>
               </li>
               <li>
                 <a
                   target="_blank"
                   href="https://github.com/NinaWald"
+                  aria-label="View Nina Waldreus github"
+                  aria-hidden="true"
                   rel="noreferrer">
-                  <img
-                    src={githubImage}
-                    alt="GitHub"
-                    className="icon-image" />
+                  <FaGithub size={40} />
                 </a>
               </li>
               <li>
                 <a
                   target="_blank"
                   href="https://stackoverflowteams.com/c/technigo/users/411/?tab=profile"
+                  aria-label="View Nina Waldreus stack overflow"
+                  aria-hidden="true"
                   rel="noreferrer">
-                  <img
-                    src={stackImage}
-                    alt="Stack Overflow"
-                    className="icon-image" />
+                  <FaStackOverflow size={40} />
                 </a>
               </li>
             </ul>

@@ -5,6 +5,7 @@ import Skills from 'components/Skills';
 import MyWords from 'components/MyWords';
 import TechComponent from 'components/Tech';
 import ProjectDataContainer, { projectsData } from 'components/ProjectDataContainer';
+import Footer from 'components/Footer';
 
 export const App = () => {
   return (
@@ -16,7 +17,7 @@ export const App = () => {
       </ProjectDataContainer>
       <Skills />
       <MyWords />
-      <Header />
+      <Footer />
     </div>
   )
 }
