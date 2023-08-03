@@ -4,6 +4,7 @@ import harryPotterImage from '../images/harry-potter.png';
 import finalProjectsImage from '../images/final-project-flowergirl.png';
 import chatbotImage from '../images/chatbot-image.png';
 import weatherappImage from '../images/weatherapp-image.png';
+import moviesImage from '../images/movies-project.png';
 
 export const projectsData = [
   {
@@ -30,6 +31,18 @@ export const projectsData = [
     techStack: ['HTML5', 'Styled-Components', 'JavaScript', 'Redux', 'React'],
     liveDemoLink: 'https://ninas-kids-todo-app.netlify.app/',
     githubLink: 'https://github.com/NinaWald/project-todos'
+  },
+  {
+    id: 'movies-project',
+    imageSrc: moviesImage,
+    title: 'Pair project',
+    description: `The main focus of this project was using routes in React and learning to work in branches with git.
+    We used APIs to fetch various movie and tv show collections to display on multiple pages with the help of useState,
+     useEffect, Navigation Links and Routes. 
+    This project was done in collaboration - by Nina Waldreus & Joanna Philips.`,
+    techStack: ['APIs', 'Git + branches', 'JavaScript', 'Pair-programming', 'React'],
+    liveDemoLink: 'https://movie-night-tonight.netlify.app/',
+    githubLink: 'https://github.com/NinaWald/project-movies'
   },
   {
     id: 'harrypotter-api',
