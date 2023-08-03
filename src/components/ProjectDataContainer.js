@@ -35,7 +35,7 @@ export const projectsData = [
   {
     id: 'movies-project',
     imageSrc: moviesImage,
-    title: 'Pair project',
+    title: 'Pair-project',
     description: `The main focus of this project was using routes in React and learning to work in branches with git.
     We used APIs to fetch various movie and tv show collections to display on multiple pages with the help of useState,
      useEffect, Navigation Links and Routes. 
