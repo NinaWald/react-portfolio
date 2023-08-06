@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&display=swap');
+
 * { 
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Lora', serif;
     background-color: rgb(245, 245, 235);
     width: 100%;
 }
 
 code {
-  font-family: 'Satoshi', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .top-section {
