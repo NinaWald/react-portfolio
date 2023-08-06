@@ -1,19 +1,12 @@
-# Technigo React Starter App
+Live demo: https://nina.waldreus.se/
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+Github link: https://github.com/NinaWald/react-portfolio
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+I created this portfolio website using React. The original portfolio is made in vanilla html and I converted it to React.  (Note: I have added projects in this newer version)
 
-## Usage
+The original html code: https://github.com/NinaWald/project-portfolio
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+This portfolio is made after a design in Figma.
 
-Alternatively, if you don't want a new git repo on your account;
+https://www.figma.com/file/z4vwGi3k8fu4fNJjUaubCw/Web-Dev-Portfolio-2023-(Copy)?type=design&node-id=0%3A1&mode=design&t=HWIOJ8pJXOPDpdD4-1
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`

@@ -55,7 +55,7 @@ export const projectsData = [
         The code in the project makes use of Mongoose models to model your data and fetch data from the database.
         I define two schemas using mongoose.Schema(): charactersSchema and spellsSchema.
         Then, I create Mongoose models for each schema using mongoose.model(): Characters and Spells.`,
-    techStack: ['HTML5', 'API', 'JavaScript', 'Redux', 'React'],
+    techStack: ['HTML5', 'API', 'JavaScript', 'Redux', 'React', 'MongoDB'],
     liveDemoLink: 'https://harry-potter-api-backend.netlify.app/',
     githubLink: 'https://github.com/NinaWald/project-mongo-api'
   },
