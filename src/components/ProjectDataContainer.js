@@ -5,6 +5,7 @@ import finalProjectsImage from '../images/final-project-flowergirl.png';
 import chatbotImage from '../images/chatbot-image.png';
 import weatherappImage from '../images/weatherapp-image.png';
 import moviesImage from '../images/movies-project.png';
+import portfolioImage from '../images/portfolio.png';
 
 export const projectsData = [
   {
@@ -83,6 +84,17 @@ export const projectsData = [
     techStack: ['HTML5', 'Styled-Components', 'JavaScript', 'Redux', 'React'],
     liveDemoLink: 'https://fantastic-licorice-31c90b.netlify.app/',
     githubLink: 'https://github.com/NinaWald/new-weather-test'
+  },
+  {
+    id: 'portfolio',
+    imageSrc: portfolioImage,
+    title: 'Portfolio in React',
+    description: `This is my portfolio made in React,
+    the original portfolio was made in vanilla html before I learned React. The portfolio is made from a design in Figma
+    with a few personal touches.`,
+    techStack: ['React', 'CSS', 'Figma', 'Jsx'],
+    liveDemoLink: 'https://nina.waldreus.se/',
+    githubLink: 'https://github.com/NinaWald/react-portfolio'
   }
 
 ];
