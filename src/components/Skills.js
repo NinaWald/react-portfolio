@@ -39,6 +39,7 @@ const Skills = () => {
             <mark style={{ backgroundColor: 'yellow' }}>More</mark>
           </p>
           <p>Design interest</p>
+          <p>Material UI</p>
           <p>Styled Components</p>
           <p>Npm Packages</p>
           <p>ChatGPT</p>

@@ -91,16 +91,16 @@ export const projectsData = [
     title: 'Portfolio in React',
     description: `This is my portfolio made in React,
     the original portfolio was made in vanilla html before I learned React. The portfolio is made from a design in Figma
-    with a few personal touches.`,
+    with a few personal touches. The Demo link is to the original vanilla portfolio.`,
     techStack: ['React', 'CSS', 'Figma', 'Jsx'],
-    liveDemoLink: 'https://nina.waldreus.se/',
+    liveDemoLink: 'https://moonlit-florentine-db6b06.netlify.app/',
     githubLink: 'https://github.com/NinaWald/react-portfolio'
   }
 
 ];
 
 const ProjectDataContainer = ({ children }) => {
-  return <> {children} </>; // Wrap the children with curly braces
+  return <> {children} </>;
 };
 
 export default ProjectDataContainer;
