@@ -163,7 +163,7 @@ ul {
 .image-projects-item {
   width: 280px;
   height: 280px;
-  object-fit: contain;
+  object-fit: cover;
   border: 1px solid black;
 }
 
