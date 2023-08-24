@@ -89,9 +89,9 @@ export const projectsData = [
     id: 'portfolio',
     imageSrc: portfolioImage,
     title: 'Portfolio in React',
-    description: `This is my portfolio made in React,
-    the original portfolio was made in vanilla html before I learned React. The portfolio is made from a design in Figma
-    with a few personal touches. The Demo link is to the original vanilla portfolio.`,
+    description: `This webpage that you are looking at is my portfolio made in React,
+    the original portfolio was made in vanilla html before I learned React. I converted the portfolio from vanilla html to React. 
+    The portfolio is made from a design in Figma with a few personal touches. The Demo link below is to the original vanilla portfolio.`,
     techStack: ['React', 'CSS', 'Figma', 'Jsx'],
     liveDemoLink: 'https://moonlit-florentine-db6b06.netlify.app/',
     githubLink: 'https://github.com/NinaWald/react-portfolio'

@@ -244,12 +244,13 @@ button:hover {
   display: flex;
   flex-direction: column;
  justify-content: center;
+ align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .article-box {
-  width: 327px;
+  width: 300px;
   height: 340px;
   object-fit: contain;
 }
