@@ -11,13 +11,14 @@ const TechComponent = () => {
       <h2>Tech</h2>
       <p style={{ fontSize: '18px', wordSpacing: '10px' }}>
         HTML5 CSS3 Styled-Components
-        Flexbox Grid&nbsp;
+        Flexbox CMS Contentful Grid&nbsp;
         <span style={{ ...coloredSpanStyle, backgroundColor: 'lightblue' }}>Javascript/ES6</span>
         <span style={{ ...coloredSpanStyle, backgroundColor: 'yellow' }}>React</span>
         <span style={{ ...coloredSpanStyle, backgroundColor: 'orange' }}>Redux</span>
-        <span style={{ ...coloredSpanStyle, backgroundColor: 'lightgreen' }}>Responsive Design</span> Mobile-first Github Vscode+Git REST API
-        Node.js Express MongoDB Mongoose&nbsp;
-        <span style={{ ...coloredSpanStyle, backgroundColor: 'pink' }}>CMS Contentful</span>
+        <span style={{ ...coloredSpanStyle, backgroundColor: 'lightgreen' }}>Responsive Design</span>
+        <span style={{ ...coloredSpanStyle, backgroundColor: 'pink' }}>Mobile-first</span>
+        Github Vscode+Git REST API
+        Node.js Express MongoDB Mongoose
       </p>
     </div>
   );

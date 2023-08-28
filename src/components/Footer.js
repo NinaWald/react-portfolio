@@ -17,7 +17,7 @@ const Footer = () => {
           <h1>
             <a href="mailto:waldreus@gmail.com">waldreus@gmail.com</a>
           </h1>
-          <h3>+46 707405478</h3>
+          <h3><a href="tel:+46707405478">+46 707405478</a></h3>
         </div>
 
         <div className="icon-container">
