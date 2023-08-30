@@ -292,10 +292,21 @@ button:hover {
   
 }
 
-
+.projects-container {
+  display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 columns on mobile */
+}
 
 /* this part has the media queries for TABLET */
 @media (min-width: 667px) and (max-width: 1024px) {
+
+  .projects-container {
+    display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+  }
+  .project-item {
+    justify-content: flex-start;
+  }
 
   .header {
       display: flex;
@@ -356,7 +367,10 @@ button:hover {
 
 @media (min-width: 1025px) {
 
-  
+  .projects-container {
+    display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+  }
   .header {
       display: flex;
       flex-direction: row;
