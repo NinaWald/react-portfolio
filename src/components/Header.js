@@ -27,14 +27,16 @@ const Header = () => {
           <h3>Frontend developer</h3>
           <h6>+ pharmacist</h6>
 
-          <article> Nina is a junior developer known for her creative solutions.
+          <article> Nina is passionate junior frontend developer with a background in pharmacy.
+                After spending several years in the healthcare industry,
+                she realized that her true passion lies in creating beautiful,
+                user-friendly web applications that make a difference in peoples lives.
                 She made a career change and went all-in for a bootcamp in frontend development.
                 Nina has a bachelors degree in pharmacy and many years experience in that field.
                 Previous to her pharmacist career she studied art in highschool.
                 She creates user-friendly applications and has a creative and colourful soul.
                 Her immence background and drive for excellence makes her a valuable asset
-                to any project
-                and a standout in the technology field.
+                to any project and a standout in the technology field.
           </article>
           <div className="icon-container">
             <ul>

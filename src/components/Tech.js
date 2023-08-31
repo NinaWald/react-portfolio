@@ -11,7 +11,7 @@ const TechComponent = () => {
       <h2>Tech</h2>
       <p style={{ fontSize: '18px', wordSpacing: '10px' }}>
         HTML5 CSS3 Styled-Components
-        Flexbox CMS Contentful Grid&nbsp;
+        Flexbox CMS-Contentful Grid&nbsp;
         <span style={{ ...coloredSpanStyle, backgroundColor: 'lightblue' }}>Javascript/ES6</span>
         <span style={{ ...coloredSpanStyle, backgroundColor: 'yellow' }}>React</span>
         <span style={{ ...coloredSpanStyle, backgroundColor: 'orange' }}>Redux</span>
