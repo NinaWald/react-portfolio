@@ -6,6 +6,7 @@ import chatbotImage from '../images/chatbot-image.png';
 import weatherappImage from '../images/weatherapp-image.png';
 import moviesImage from '../images/movies-project.png';
 import portfolioImage from '../images/portfolio.png';
+import patientreferralImage from '../images/patient-referral.png'
 
 export const projectsData = [
   {
@@ -19,6 +20,22 @@ export const projectsData = [
     techStack: ['Contentful', 'Styled-Components', 'JavaScript', 'Redux', 'React', 'MongoDB'],
     liveDemoLink: 'https://ninaw-final-project.netlify.app/',
     githubLink: 'https://github.com/NinaWald/final-project-frontend'
+  },
+  {
+    id: 'patient-referral',
+    imageSrc: patientreferralImage,
+    title: 'Patient referral management system',
+    description: `I developed a responsive web application to manage patient referrals,
+     designed for healthcare providers to streamline the patient intake process.
+     The application allows users to add up to five patient referrals, with functionality to edit, delete,
+      and review patient information efficiently.
+      A key feature includes a dynamic form that prevents users from adding more than five patients,
+       with real-time notifications ensuring user-friendly interaction.
+       The system is built with React and utilizes state management to handle form inputs and patient data.
+     The interface is fully responsive, ensuring compatibility across both desktop and mobile devices.`,
+    techStack: ['JavaScript', 'React', 'CSS', 'Figma-design'],
+    liveDemoLink: 'https://patient-referral.netlify.app/',
+    githubLink: 'https://github.com/NinaWald/patient-referral-form'
   },
   {
     id: 'todo-project',
